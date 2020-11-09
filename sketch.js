@@ -98,7 +98,7 @@ function mouseDragged(){
 
     if(keyCode === 32){
       Matter.Body.setPosition(stoneObj.body,{x:145,y:530})
-      slingShot.attach(stone.body)
+      slingshot.attach(stone.body)
     }
   }
   
